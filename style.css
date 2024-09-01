@@ -1,0 +1,78 @@
+.welcome-screen .masuk {
+    margin: auto;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.048;
+    color: rgba(255, 254, 254, 0.91);
+  }
+  .welcome-screen .button {
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.06);
+    position: relative;
+    margin-right: 1px;
+    display: flex;
+    padding: 11px 0.1px 10px 0;
+    width: 160px;
+    box-sizing: border-box;
+  }
+  .welcome-screen {
+    background: linear-gradient(180deg, #4BDFAA, #82DE9A);
+    display: flex;
+    padding: 55px 19px 96px 20px;
+    box-sizing: border-box;
+  }
+  .welcome-screen .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .welcome-screen .laporan-tahfidzul-quran {
+    margin: 0 1px 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 0.2px;
+    line-height: 1.524;
+    color: #FFFFFF;
+  }
+  .welcome-screen .image-1 {
+    background: url("image_1.png") 50% / cover no-repeat;
+    margin-bottom: 17px;
+    width: 375px;
+    height: 375px;
+    filter: brightness(0.5);
+    filter: contrast(3);
+    mix-blend-mode: color-dodge;
+  }
+  .welcome-screen .rumah-tahfidz-plus {
+    margin-bottom: 94px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+  }
+  .welcome-screen .baiturrahman {
+    position: absolute;
+    left: 50%;
+    bottom: 115px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+  }
